@@ -26,7 +26,7 @@ class _TaskListState extends State<TaskList> {
           }
         );
       },
-      itemCount: tasks.length,
+      itemCount: widget.tasks.length,
     );
   }
 }
